@@ -1,0 +1,32 @@
+/************** Start Default Theme  **************/
+
+/* Active Link */
+.navbar-dark > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.carousel-indicators .active,
+.option-box .gear-check,
+.option-box .color-option ul li,
+.scroll-up {
+  background-color: #e41b17;
+}
+.navbar-dark .navbar-brand span,
+.about h2 span,
+.testimonials span,
+.footer h3,
+.footer .copyRight span,
+.footer .copyRight i {
+  color: #e41b17;
+}
+.option-box .color-option, 
+.testimonials .carousel-indicators li.active {
+  border: 3px solid #e41b17;
+}
+.dropdown-menu, 
+.dropdown-divider {
+  border-top: 2px solid #e41b17;
+}
+/************** End Default Theme  **************/

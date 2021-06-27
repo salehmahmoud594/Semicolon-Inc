@@ -1,0 +1,499 @@
+body {padding-top: 70px;overflow: hidden; }
+
+h1,h2,h3,h4, h5,.lead {font-family: "Droid Sans", sans-serif;}
+/*   Starting Overriding Bootstrap    */
+
+/*Nav*/
+.navbar {min-height: 75px;}
+
+/* Active Link */
+.nav-link:hover {background-color: #2d2d2d;color: rgb(255, 255, 255);}
+
+/* Nav Link */
+.navbar-dark .navbar-nav .nav-link {
+  color: #bbb;
+  padding: 1.5rem 1rem;
+  font-size: 17px;
+}
+
+/* Logo Link  */
+.navbar-dark .navbar-brand {
+  color: #bbb;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+/* Dropdown Menu  */
+.dropdown-menu {background-color: #333;min-width: 200px;}
+
+.dropdown-item {
+  color: #fff;
+  padding: 9px 20px;
+  transition: padding 0.5s ease;
+  -webkit-transition: padding 0.5s ease;
+  -moz-transition: padding 0.5s ease;
+  -o-transition: padding 0.5s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fff;
+  padding-left: 30px;
+}
+
+/* Carousel */
+
+.carousel-caption {
+  bottom: 100px;
+  background: rgba(3, 3, 3, 0.3);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.carousel-indicators {bottom: 0;}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  opacity: 0.4;
+  border: 2px solid #eee;
+  border-radius: 25px;
+}
+.carousel-inner > .carousel-item > img {width: 100%;}
+
+/**********************   End Overriding Bootstrap    ********************** */
+
+/* Start Section Tool Box */
+.option-box {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 9999;
+}
+
+.option-box .color-option {
+  float: left;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+.option-box .color-option ul li {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.option-box .gear-check {
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+/* End Section Tool Box */
+
+/* Start Section About */
+.about {padding-top: 60px;padding-bottom: 60px;}
+
+.about .lead {
+  color: #888;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.about h2 {font-weight: bold;}
+/* End Section About */
+
+/* Start Section Features */
+.features {
+  background-color: #eee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features .feat {margin-bottom: 30px;}
+
+.features .feat p {line-height: 2em;}
+
+.features .feat i {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #888;
+}
+/* End  Section Features */
+
+/* Start Section Testimonials */
+.testimonials {padding-top: 50px;padding-bottom: 50px;}
+
+.testimonials .h1 {font-weight: bold;}
+
+.testimonials .lead {line-height: 2em;margin-bottom: 10px;}
+
+.testimonials span {font-size: 18px;font-weight: bold;}
+
+.testimonials .carousel-inner {min-height: 160px;}
+
+.testimonials .carousel-indicators {
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.testimonials .carousel-indicators li.active {
+  width: 80px;
+  height: 80px;
+  background-color: none;
+}
+
+.testimonials .carousel-indicators li img {
+  max-width: 100%;
+}
+/* End Section Testimonials */
+
+/* Start Section Price Table */
+.price {
+  background: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.price .price_box {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.price .price_box h2 {margin: 5px 0 15px;}
+
+.price .price_box:hover p {
+  -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+  transform: scale(1.1, 1.1) rotate(360deg);
+  border: 2px solid #dfdfdf;
+}
+
+.price .price_box p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #666;
+  width: 100px;
+  height: 100px;
+  background: #f3f3f3;
+  border-radius: 50%;
+  line-height: 100px;
+  border: 2px solid #fff;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+.price .price_box ul {line-height: 250%;font-size: 18px;}
+
+.price .price_box a {margin-bottom: 5px;}
+/* End Section Price Table */
+
+/* Start Section Our Team */
+.our-Team {
+  background: url(../Images/team.jpg) no-repeat center center fixed;
+  min-height: 600px;
+}
+
+.our-Team .team {
+  background: rgba(2, 2, 2, 0.8);
+  color: #fff;
+  min-height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.our-Team .person {margin-bottom: 40px;}
+/* End Section Our Team */
+
+/* Start Section Subscribe */
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background: #eee;
+}
+
+.subscribe .h1 {
+  color: #888;
+  letter-spacing: 2px;
+}
+
+.subscribe p {margin-bottom: 30px;}
+
+.subscribe .form-control {
+  border-radius: 0;
+  margin-right: -5px;
+  width: 300px;
+}
+.subscribe button {border-radius: 0;}
+/* End Section Subscribe */
+
+/* Start Section Stats */
+.statistics {
+  background: url("../Images/stats.jpg") no-repeat center center fixed;
+  min-height: 300px;
+}
+.statistics .Data {
+  background: rgba(2, 2, 2, 0.8);
+  color: #b6b5b5;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.statistics .stats {
+  margin-bottom: 30px;
+}
+.statistics .stats:hover {color: #fff;}
+
+.statistics p {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.statistics span {font-size: 18px;}
+/* End Section Stats */
+
+/* Start Section Our SKills */
+.our-skills {padding-top: 40px;padding-bottom: 70px;}
+
+.our-skills .h1 {padding-bottom: 60px;}
+
+.our-skills h3 {font-weight: bold;margin-top: 0;}
+
+.our-skills .progress {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+
+.our-skills .progress-bar {
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.our-skills .progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+/* End Section Our SKills */
+
+/* Start Section Contact Us */
+.contact-us {
+  background: url(../Images/stats.jpg) no-repeat center center fixed;
+  min-height: 300px;
+}
+
+.contact-us .fileds {
+  background: rgba(9, 9, 9, 0.8);
+  color: #ddd;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-us p {margin-bottom: 40px;}
+
+.contact-us textarea {height: 115px;margin-bottom: 10px;}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us input[type="tel"],
+.contact-us textarea {
+  background: rgba(82, 78, 78, 0.6);
+  color: #fff;
+  border: none;
+}
+/* End Section Contact Us */
+
+/* Start Section Our Clients */
+.our-client {
+  background-color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.our-client img {
+  opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.our-client img:hover {opacity: 1;}
+/* End Section Our Clients */
+
+/* -Start Section Footer */
+.footer {
+  background: #111;
+  color: #aaa;
+  padding-top: 10px;
+}
+.footer a {color: #aaa;}
+
+.footer a:hover {color: #fff;}
+
+.footer h3 {letter-spacing: 1px;margin: 30px 0 20px;}
+
+.footer .three-columns {overflow: hidden;}
+
+.footer .three-columns li {
+  width: 33.33333333%;
+  float: left;
+  padding: 5px 0;
+}
+
+.footer .social-list {overflow: hidden;margin: 20px 0 10px;}
+
+.footer .social-list li {
+  float: left;
+  margin-left: 3px;
+  opacity: 0.7;
+}
+
+.footer .social-list li:hover {opacity: 1;}
+
+.footer .last-art {margin-top: 15px;}
+
+.footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+.footer .copyRight {
+  background: #333;
+  color: #aaa;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.footer .copyRight span {font-size: 25px;}
+/* -End Section Footer */
+
+/* Start Section Loading */
+
+.loading-overlay {
+  background: #222;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 300px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* End Section Loading */
+
+/* Start Section Scroll To Top */
+.scroll-up {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  display: none;
+} 
+/*End Section Scroll To Top */
+
+/* Start Grouping System */
+.our-Team,
+.contact-us,
+.statistics {
+  background-size: cover;
+}
+
+.features .h1,
+.testimonials .h1,
+.price .h1,
+.our-Team .h1 ,
+.subscribe .h1 ,
+.statistics .h1   {
+  margin-bottom: 50px;
+}
+.carousel-item ,
+.testimonials .carousel-indicators li,
+.statistics .stats,
+.our-client img,
+.footer .social-list li  {
+  -webkit-transition: all 1s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+
+
+/* End  Grouping System */

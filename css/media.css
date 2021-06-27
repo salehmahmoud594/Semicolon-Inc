@@ -1,0 +1,31 @@
+/*  Smart Phones And Tablets  */
+@media (max-width: 576px) {
+  .navbar-dark .navbar-nav .nav-link{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .subscribe .form-control {
+    margin:20px auto;
+    width:400px;
+  }
+}
+
+/*  Small Screen  */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-dark .navbar-nav .nav-link{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
+/*  Medium Screen  */
+@media (min-width: 767px) and (max-width: 991px) {
+}
+
+/*  Large Screen  */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*  Extra Large Screen  */
+@media (min-width: 1200px) {
+}
